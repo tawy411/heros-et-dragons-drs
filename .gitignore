@@ -3,3 +3,6 @@ docs/.vuepress/dist
 tmp/
 import/
 regex
+build/
+.idea
+²

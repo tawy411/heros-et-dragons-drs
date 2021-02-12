@@ -66,6 +66,28 @@ python -m SimpleHTTPServer 8081
 ```
 Le site statique sera accessible sur http://localhost:8081
 
+### Version Electron
+
+Il est également possible de wrapper le site via Electron, pour disposer d'une version standalone
+
+#### Lancer l'application en mode developpeur
+```
+yarn electron-dev
+```
+ou
+```
+npm run electron-dev
+```
+
+#### Empaquetage de l'application
+```
+yarn electron-pack
+```
+ou
+```
+npm run electron-pack
+```
+
 ## Soutien
 Si le cœur vous en dit, vous pouvez soutenir le projet sur [Ko-fi](https://ko-fi.com/S6S410PB8). Ça sera grandement apprécié. Le site est entièrement gratuit et ne souffre d'aucune publicité. Aucun revenu n'est donc généré par son biais.
 

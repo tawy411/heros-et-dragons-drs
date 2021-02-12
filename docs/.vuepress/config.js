@@ -124,7 +124,7 @@ module.exports = {
       }
     ]
   ],
-  dest: process.env.VUEPRESS_DEST,
+  dest: 'build',
   extendPageData ($page) {
     $page.rawContent = ($page._strippedContent)
   },
