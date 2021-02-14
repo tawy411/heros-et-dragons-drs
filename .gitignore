@@ -4,5 +4,5 @@ tmp/
 import/
 regex
 build/
+dist/
 .idea
-²

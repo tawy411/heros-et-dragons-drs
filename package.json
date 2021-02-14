@@ -11,7 +11,8 @@
     "electron": "wait-on http://localhost:8080 && electron .",
     "electron-dev": "concurrently \"yarn run dev\" \"yarn run electron\"",
     "preelectron-pack": "yarn build",
-    "electron-pack": "electron-builder"
+    "electron-pack": "electron-builder",
+    "release": "electron-builder build --publish always"
   },
   "dependencies": {
     "@mdi/font": "^5.0.45",
@@ -49,6 +50,7 @@
   "main": "main.js",
   "build": {
     "icon": "docs/.vuepress/public/favicon.png",
+    "compression": "maximum",
     "productName": "Héros & Dragons DRS",
     "files": [
       "build/**/*",
