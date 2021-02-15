@@ -81,11 +81,11 @@ npm run electron-dev
 
 #### Empaquetage de l'application
 ```
-yarn electron-pack
+yarn release
 ```
 ou
 ```
-npm run electron-pack
+npm run release
 ```
 
 ## Soutien
